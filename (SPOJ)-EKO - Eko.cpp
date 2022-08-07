@@ -1,8 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#define clr(a) memset((a),0,sizeof(a))
-
 typedef long long ll;
 
 const int N = 1e6+10;
@@ -20,8 +18,7 @@ bool valid(int value){
 
 void solve(){
   cin>>n>>m;
-  clr(trees);
-
+  
   for(int i=0; i<n; i++) cin>>trees[i];            
 
   ll lo=0, hi=1e9, mid;
