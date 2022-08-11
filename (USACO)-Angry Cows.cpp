@@ -16,8 +16,7 @@ bool valid(int mid){
       k++;
     }
   }
-  if(k>m) return false;
-  return true;
+  return k<=m;
 }
 
 int main() {
