@@ -24,9 +24,6 @@ bool valid(ll mid, vector<pair<ll, ll>> v, int n, int m){
 }
 
 int main() {
-  #ifndef ONLINE_JUDGE
-    freopen("Error.txt", "w", stderr);
-  #endif
 
   ios_base::sync_with_stdio(false);
   cout.tie(nullptr);
