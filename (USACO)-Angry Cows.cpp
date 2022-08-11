@@ -20,9 +20,6 @@ bool valid(int mid){
 }
 
 int main() {
-  #ifndef ONLINE_JUDGE
-    freopen("Error.txt", "w", stderr);
-  #endif
 
   ios_base::sync_with_stdio(false);
   cout.tie(nullptr);
