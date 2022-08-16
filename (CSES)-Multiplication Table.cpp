@@ -1,5 +1,5 @@
 /*
-  Time Complexity: O(log(n)*n)
+  Time Complexity: O(log(n*n)*n)
 */
 
 #include<bits/stdc++.h>
